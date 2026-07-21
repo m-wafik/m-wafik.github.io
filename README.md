@@ -1,65 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohamed Wafik ElSheikh</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+# Personal website — deployment steps
 
-<nav><div class="wrap">
-  <span class="site-name">Mohamed Wafik ElSheikh</span>
-  <span class="links">
-    <a href="index.html" class="active">Home</a>
-    <a href="research.html">Research</a>
-    <a href="teaching.html">Teaching</a>
-    <a href="cv.html">CV</a>
-  </span>
-</div></nav>
+This folder is a complete static site: `index.html`, `research.html`, `teaching.html`,
+`cv.html`, `style.css`, and `Mohamed_Wafik_ElSheikh_CV.pdf`. No build step needed.
 
-<main>
-  <h1>Mohamed Wafik ElSheikh</h1>
-  <div class="tagline">PhD Candidate in Mathematics &middot; University of South Carolina</div>
+## Publish it with GitHub Pages (free)
 
-  <div class="address">
-    Department of Mathematics, University of South Carolina<br>
-    1523 Greene Street, LeConte College, Columbia, SC 29208, USA<br>
-    mwafik [at] sc [dot] edu &nbsp;&middot;&nbsp; (+1) 646-623-3411
-  </div>
+1. Go to github.com and create a new **public** repository.
+   - If you want the site at `https://<your-username>.github.io/`, name the repo exactly
+     `<your-username>.github.io`.
+   - Any other name works too — the site will just live at
+     `https://<your-username>.github.io/<repo-name>/` instead.
+2. Upload all the files in this folder to the root of that repository (drag-and-drop works
+   on github.com, or `git add . && git commit -m "site" && git push` if you're using the
+   command line).
+3. In the repo, go to **Settings → Pages**.
+4. Under "Build and deployment", set **Source** to "Deploy from a branch", pick the
+   **main** branch and the **/ (root)** folder, then save.
+5. GitHub will give you the live URL in that same settings page within a minute or two.
 
-  <p>
-    I am a PhD candidate in mathematics at the University of South Carolina, working with
-    <a href="https://thornef.github.io/" target="_blank" rel="noopener">Frank Thorne</a>.
-    My research sits at the intersection of <strong>arithmetic statistics</strong> and
-    <strong>arithmetic dynamics</strong>: I compute finite Fourier transforms of invariant
-    functions on spaces of binary forms, and I study primitive prime divisors, post-critically
-    finite polynomials, and orbit intersections for the family <em>f(x) = x<sup>d</sup> + c</em>,
-    in ongoing work with
-    <a href="https://sites.google.com/sabanciuniv.edu/mmsadek/home" target="_blank" rel="noopener">Mohammad Sadek</a>
-    (Sabancı University) and Tuğba Yesin.
-  </p>
+## Updating later
 
-  <p>
-    Before USC I completed an MS in Mathematics at Sabancı University and a BS in Electronics
-    and Communication Engineering at the American University in Cairo.
-  </p>
-
-  <h2>Current Teaching</h2>
-  <p>
-    Fall 2025&ndash;Spring 2026: Instructor of Record, <em>Discrete Math for Computer Science</em>,
-    University of South Carolina.
-  </p>
-
-  <h2>Elsewhere</h2>
-  <p>
-    <a href="research.html">Publications &amp; research</a> &nbsp;&middot;&nbsp;
-    <a href="teaching.html">Teaching record</a> &nbsp;&middot;&nbsp;
-    <a href="cv.html">Full CV</a>
-  </p>
-</main>
-
-<footer>&copy; Mohamed Wafik ElSheikh</footer>
-
-</body>
-</html>
+Just edit the `.html` files directly (they're plain text) and push the changes — no
+rebuild step. If you replace the CV PDF, keep the filename
+`Mohamed_Wafik_ElSheikh_CV.pdf` or update the link in `cv.html` to match.

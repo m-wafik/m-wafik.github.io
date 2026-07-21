@@ -1,25 +1,78 @@
-# Personal website — deployment steps
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV &middot; Mohamed Wafik ElSheikh</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-This folder is a complete static site: `index.html`, `research.html`, `teaching.html`,
-`cv.html`, `style.css`, and `Mohamed_Wafik_ElSheikh_CV.pdf`. No build step needed.
+<nav><div class="wrap">
+  <span class="site-name">Mohamed Wafik ElSheikh</span>
+  <span class="links">
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="cv.html" class="active">CV</a>
+  </span>
+</div></nav>
 
-## Publish it with GitHub Pages (free)
+<main>
+  <h1>Curriculum Vitae</h1>
+  <p><a class="btn" href="Mohamed_Wafik_ElSheikh_CV.pdf">Download full CV (PDF)</a></p>
 
-1. Go to github.com and create a new **public** repository.
-   - If you want the site at `https://<your-username>.github.io/`, name the repo exactly
-     `<your-username>.github.io`.
-   - Any other name works too — the site will just live at
-     `https://<your-username>.github.io/<repo-name>/` instead.
-2. Upload all the files in this folder to the root of that repository (drag-and-drop works
-   on github.com, or `git add . && git commit -m "site" && git push` if you're using the
-   command line).
-3. In the repo, go to **Settings → Pages**.
-4. Under "Build and deployment", set **Source** to "Deploy from a branch", pick the
-   **main** branch and the **/ (root)** folder, then save.
-5. GitHub will give you the live URL in that same settings page within a minute or two.
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="title">Ph.D. in Mathematics, University of South Carolina</div>
+    <div class="meta">2022 &ndash; present &middot; Area: Arithmetic Statistics &middot; Advisor: Frank Thorne</div>
+  </div>
+  <div class="entry">
+    <div class="title">M.S. in Mathematics, Sabancı University</div>
+    <div class="meta">2020 &ndash; 2022 &middot; Advisor: Mohammad Sadek</div>
+  </div>
+  <div class="entry">
+    <div class="title">B.S. in Electronics and Communication Engineering, American University in Cairo</div>
+    <div class="meta">2013 &ndash; 2018 &middot; Minors: Computer Science, Mathematics</div>
+  </div>
 
-## Updating later
+  <h2>Grants, Fellowships, and Awards</h2>
+  <ul class="plain">
+    <li><span class="entry title">Outstanding First Year Graduate Student</span>, University of South Carolina <span class="entry meta">(2022&ndash;2023)</span></li>
+    <li><span class="entry title">TÜBİTAK Scholarship</span>, Sabancı University <span class="entry meta">(2021&ndash;2022)</span></li>
+    <li><span class="entry title">Full Tuition Scholarship</span>, Sabancı University <span class="entry meta">(2020&ndash;2021)</span></li>
+    <li><span class="entry title">Highest Honors Achievement</span>, American University in Cairo <span class="entry meta">(2018)</span></li>
+    <li><span class="entry title">Academic Achievement Scholarship</span>, American University in Cairo <span class="entry meta">(2013&ndash;2018)</span></li>
+  </ul>
 
-Just edit the `.html` files directly (they're plain text) and push the changes — no
-rebuild step. If you replace the CV PDF, keep the filename
-`Mohamed_Wafik_ElSheikh_CV.pdf` or update the link in `cv.html` to match.
+  <h2>Conferences, Workshops, and Talks</h2>
+  <ul class="plain">
+    <li><span class="entry title">FOUVRY73 Summer School</span>, Bernoulli Center, EPFL, Lausanne, Switzerland <span class="entry meta">(Aug 2026)</span></li>
+    <li><span class="entry title">Algorithmic Number Theory Symposium (ANTS XVII)</span>, Groningen, Netherlands <span class="entry meta">(Jul 2026)</span></li>
+    <li><span class="entry title">SMS 2026: Universal Statistics in Number Theory</span>, Université de Montréal <span class="entry meta">(May 2026)</span></li>
+    <li><span class="entry title">South Eastern Regional Meeting on Numbers (SERMON)</span>, Clemson University <span class="entry meta">(Apr 2026)</span></li>
+    <li><span class="entry title">Palmetto Number Theory Series (PANTS)</span>, Clemson University <span class="entry meta">(Oct 2023)</span></li>
+    <li><span class="entry title">Journée Arithmétique 2023</span>, University of Lorraine, Nancy <span class="entry meta">(Jul 2023)</span></li>
+    <li><span class="entry title">Arizona Winter School 2023: Unlikely Intersections</span>, University of Arizona <span class="entry meta">(Mar 2023)</span></li>
+    <li><span class="entry title">SuSAAN Summer School</span>, Nesin Mathematics Village, İzmir <span class="entry meta">(Jun 2022)</span></li>
+    <li><span class="entry title">Invited Talk: &ldquo;Primitive Prime Divisors of Integer Sequences&rdquo;</span>, Bahar Matematik Buluşmaları <span class="entry meta">(Oct 2021)</span></li>
+    <li><span class="entry title">CIMPA Preparation Course</span>, Boğaziçi University, Istanbul <span class="entry meta">(Aug 2021)</span></li>
+  </ul>
+
+  <h2>Skills</h2>
+  <p>
+    <strong>Technical:</strong> C++, Java, Python, Mathematica, Magma, LaTeX (proficient);
+    SQL, MATLAB, Cadence, VHDL, CAPL (intermediate).<br>
+    <strong>Languages:</strong> English and Arabic (fluent); Turkish (basic).
+  </p>
+
+  <div class="note">
+    This page is a summary. The <a href="Mohamed_Wafik_ElSheikh_CV.pdf">downloadable CV</a>
+    has the complete record, including full teaching history and non-academic experience.
+  </div>
+</main>
+
+<footer>&copy; Mohamed Wafik ElSheikh</footer>
+
+</body>
+</html>

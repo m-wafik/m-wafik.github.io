@@ -1,167 +1,65 @@
-:root {
-  --ink: #202426;
-  --muted: #5b6368;
-  --accent: #7a1f2b;
-  --rule: #e2e2e0;
-  --bg: #fdfdfc;
-  --max: 760px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Wafik ElSheikh</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-* { box-sizing: border-box; }
+<nav><div class="wrap">
+  <span class="site-name">Mohamed Wafik ElSheikh</span>
+  <span class="links">
+    <a href="index.html" class="active">Home</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="cv.html">CV</a>
+  </span>
+</div></nav>
 
-html { -webkit-text-size-adjust: 100%; }
+<main>
+  <h1>Mohamed Wafik ElSheikh</h1>
+  <div class="tagline">PhD Candidate in Mathematics &middot; University of South Carolina</div>
 
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.6;
-  font-size: 17px;
-}
+  <div class="address">
+    Department of Mathematics, University of South Carolina<br>
+    1523 Greene Street, LeConte College, Columbia, SC 29208, USA<br>
+    mwafik [at] sc [dot] edu &nbsp;&middot;&nbsp; (+1) 646-623-3411
+  </div>
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(122, 31, 43, 0.35);
-}
-a:hover { border-bottom-color: var(--accent); }
+  <p>
+    I am a PhD candidate in mathematics at the University of South Carolina, working with
+    <a href="https://thornef.github.io/" target="_blank" rel="noopener">Frank Thorne</a>.
+    My research sits at the intersection of <strong>arithmetic statistics</strong> and
+    <strong>arithmetic dynamics</strong>: I compute finite Fourier transforms of invariant
+    functions on spaces of binary forms, and I study primitive prime divisors, post-critically
+    finite polynomials, and orbit intersections for the family <em>f(x) = x<sup>d</sup> + c</em>,
+    in ongoing work with
+    <a href="https://sites.google.com/sabanciuniv.edu/mmsadek/home" target="_blank" rel="noopener">Mohammad Sadek</a>
+    (Sabancı University) and Tuğba Yesin.
+  </p>
 
-nav {
-  border-bottom: 1px solid var(--rule);
-  background: var(--bg);
-}
-nav .wrap {
-  max-width: var(--max);
-  margin: 0 auto;
-  padding: 18px 24px;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 8px 20px;
-}
-nav .site-name {
-  font-weight: 700;
-  font-size: 17px;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  border-bottom: none;
-}
-nav .links {
-  display: flex;
-  gap: 22px;
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14.5px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-nav .links a {
-  color: var(--muted);
-  border-bottom: none;
-  padding-bottom: 2px;
-}
-nav .links a:hover, nav .links a.active {
-  color: var(--accent);
-  border-bottom: 1px solid var(--accent);
-}
+  <p>
+    Before USC I completed an MS in Mathematics at Sabancı University and a BS in Electronics
+    and Communication Engineering at the American University in Cairo.
+  </p>
 
-main {
-  max-width: var(--max);
-  margin: 0 auto;
-  padding: 44px 24px 80px;
-}
+  <h2>Current Teaching</h2>
+  <p>
+    Fall 2025&ndash;Spring 2026: Instructor of Record, <em>Discrete Math for Computer Science</em>,
+    University of South Carolina.
+  </p>
 
-h1 {
-  font-size: 30px;
-  margin: 0 0 6px;
-}
-h2 {
-  font-size: 21px;
-  margin: 40px 0 14px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--rule);
-  letter-spacing: 0.01em;
-}
-h2:first-of-type { margin-top: 8px; }
+  <h2>Elsewhere</h2>
+  <p>
+    <a href="research.html">Publications &amp; research</a> &nbsp;&middot;&nbsp;
+    <a href="teaching.html">Teaching record</a> &nbsp;&middot;&nbsp;
+    <a href="cv.html">Full CV</a>
+  </p>
+</main>
 
-p { margin: 0 0 14px; }
+<footer>&copy; Mohamed Wafik ElSheikh</footer>
 
-.tagline {
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  color: var(--muted);
-  font-size: 16px;
-  margin-bottom: 22px;
-}
-
-.address {
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14.5px;
-  color: var(--muted);
-  line-height: 1.7;
-  margin-bottom: 26px;
-}
-.address a { color: var(--muted); border-bottom-color: rgba(91,99,104,0.4); }
-
-ul.plain, ol.plain {
-  padding-left: 1.2em;
-  margin: 0 0 6px;
-}
-ul.plain li, ol.plain li {
-  margin-bottom: 14px;
-}
-
-.entry {
-  margin-bottom: 16px;
-}
-.entry .title {
-  font-weight: 700;
-}
-.entry .meta {
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: var(--muted);
-}
-
-.group-label {
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--muted);
-  margin: 30px 0 10px;
-}
-.group-label:first-of-type { margin-top: 4px; }
-
-.note {
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: var(--muted);
-  background: #f4efe9;
-  border-left: 3px solid var(--accent);
-  padding: 12px 16px;
-  margin: 4px 0 24px;
-}
-
-.btn {
-  display: inline-block;
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #fff;
-  background: var(--accent);
-  border: none;
-  padding: 10px 18px;
-  border-radius: 3px;
-}
-.btn:hover { background: #611722; border-bottom: none; }
-
-footer {
-  max-width: var(--max);
-  margin: 0 auto;
-  padding: 20px 24px 60px;
-  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  color: var(--muted);
-}
+</body>
+</html>

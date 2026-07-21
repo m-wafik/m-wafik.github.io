@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching &middot; Mohamed Wafik ElSheikh</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav><div class="wrap">
+  <span class="site-name">Mohamed Wafik ElSheikh</span>
+  <span class="links">
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html" class="active">Teaching</a>
+    <a href="cv.html">CV</a>
+  </span>
+</div></nav>
+
+<main>
+  <h1>Teaching</h1>
+  <p class="tagline">Students learn mathematics by doing it, not by watching it be done.</p>
+
+  <p>
+    My role in the classroom is to choose problems that force students to make the next move
+    themselves, to make it safe to make that move incorrectly in front of others, and to
+    connect the resulting techniques back to something the student already cares about.
+  </p>
+
+  <div class="group-label">University of South Carolina</div>
+  <ul class="plain">
+    <li><span class="entry title">Instructor of Record</span> &mdash; Discrete Math for Computer Science <span class="entry meta">(Aug 2025 &ndash; May 2026)</span></li>
+    <li><span class="entry title">Instructor of Record</span> &mdash; Calculus for Business and Social Science <span class="entry meta">(Jan 2025 &ndash; May 2025; Aug 2023 &ndash; Jul 2024)</span></li>
+    <li><span class="entry title">Instructor of Record</span> &mdash; Intensive Basic College Math <span class="entry meta">(Aug 2024 &ndash; Dec 2024)</span></li>
+    <li><span class="entry title">Teaching Assistant</span> &mdash; Calculus 2 <span class="entry meta">(Jan 2023 &ndash; May 2023)</span></li>
+    <li><span class="entry title">Teaching Assistant</span> &mdash; Calculus 1 <span class="entry meta">(Aug 2022 &ndash; Dec 2022)</span></li>
+  </ul>
+
+  <div class="group-label">Sabancı University</div>
+  <ul class="plain">
+    <li><span class="entry title">Teaching Assistant</span> &mdash; Discrete Mathematics <span class="entry meta">(Feb 2022 &ndash; Jun 2022)</span></li>
+    <li><span class="entry title">Teaching Assistant</span> &mdash; Linear Algebra <span class="entry meta">(Sep 2021 &ndash; Jan 2022)</span></li>
+    <li><span class="entry title">Teaching Assistant</span> &mdash; Calculus 2 <span class="entry meta">(Feb 2021 &ndash; Jun 2021)</span></li>
+    <li><span class="entry title">Teaching Assistant</span> &mdash; Calculus 1 <span class="entry meta">(Sep 2020 &ndash; Jan 2021)</span></li>
+  </ul>
+
+  <div class="group-label">American University in Cairo</div>
+  <ul class="plain">
+    <li><span class="entry title">Undergraduate Teaching Assistant</span> &mdash; Calculus IV <span class="entry meta">(Sep 2016 &ndash; Jan 2017; Sep 2017 &ndash; Jan 2018)</span></li>
+    <li><span class="entry title">Undergraduate Teaching Assistant</span> &mdash; Mechanics II (Dynamics) <span class="entry meta">(Feb 2015 &ndash; Jun 2015; Feb 2016 &ndash; Jun 2016)</span></li>
+    <li><span class="entry title">Undergraduate Teaching Assistant</span> &mdash; Linear Algebra <span class="entry meta">(Feb 2018 &ndash; Jun 2018)</span></li>
+    <li><span class="entry title">Undergraduate Teaching Assistant</span> &mdash; Calculus II <span class="entry meta">(Feb 2014 &ndash; Jun 2014)</span></li>
+  </ul>
+</main>
+
+<footer>&copy; Mohamed Wafik ElSheikh</footer>
+
+</body>
+</html>

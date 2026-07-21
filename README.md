@@ -1,1 +1,65 @@
-# m-wafik.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Wafik ElSheikh</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav><div class="wrap">
+  <span class="site-name">Mohamed Wafik ElSheikh</span>
+  <span class="links">
+    <a href="index.html" class="active">Home</a>
+    <a href="research.html">Research</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="cv.html">CV</a>
+  </span>
+</div></nav>
+
+<main>
+  <h1>Mohamed Wafik ElSheikh</h1>
+  <div class="tagline">PhD Candidate in Mathematics &middot; University of South Carolina</div>
+
+  <div class="address">
+    Department of Mathematics, University of South Carolina<br>
+    1523 Greene Street, LeConte College, Columbia, SC 29208, USA<br>
+    mwafik [at] sc [dot] edu &nbsp;&middot;&nbsp; (+1) 646-623-3411
+  </div>
+
+  <p>
+    I am a PhD candidate in mathematics at the University of South Carolina, working with
+    <a href="https://thornef.github.io/" target="_blank" rel="noopener">Frank Thorne</a>.
+    My research sits at the intersection of <strong>arithmetic statistics</strong> and
+    <strong>arithmetic dynamics</strong>: I compute finite Fourier transforms of invariant
+    functions on spaces of binary forms, and I study primitive prime divisors, post-critically
+    finite polynomials, and orbit intersections for the family <em>f(x) = x<sup>d</sup> + c</em>,
+    in ongoing work with
+    <a href="https://sites.google.com/sabanciuniv.edu/mmsadek/home" target="_blank" rel="noopener">Mohammad Sadek</a>
+    (Sabancı University) and Tuğba Yesin.
+  </p>
+
+  <p>
+    Before USC I completed an MS in Mathematics at Sabancı University and a BS in Electronics
+    and Communication Engineering at the American University in Cairo.
+  </p>
+
+  <h2>Current Teaching</h2>
+  <p>
+    Fall 2025&ndash;Spring 2026: Instructor of Record, <em>Discrete Math for Computer Science</em>,
+    University of South Carolina.
+  </p>
+
+  <h2>Elsewhere</h2>
+  <p>
+    <a href="research.html">Publications &amp; research</a> &nbsp;&middot;&nbsp;
+    <a href="teaching.html">Teaching record</a> &nbsp;&middot;&nbsp;
+    <a href="cv.html">Full CV</a>
+  </p>
+</main>
+
+<footer>&copy; Mohamed Wafik ElSheikh</footer>
+
+</body>
+</html>

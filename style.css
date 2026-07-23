@@ -43,7 +43,7 @@ nav .wrap {
 }
 nav .site-name {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 0px;
   letter-spacing: 0.02em;
   color: var(--ink);
   border-bottom: none;

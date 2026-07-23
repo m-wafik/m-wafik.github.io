@@ -76,6 +76,29 @@ h1 {
   font-size: 30px;
   margin: 0 0 6px;
 }
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 4px;
+}
+.headshot {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--rule);
+}
+.header-row h1 { margin-bottom: 4px; }
+.header-row .tagline { margin-bottom: 0; }
+
+@media (max-width: 480px) {
+  .header-row { gap: 16px; }
+  .headshot { width: 76px; height: 76px; }
+  .header-row h1 { font-size: 24px; }
+}
 h2 {
   font-size: 21px;
   margin: 40px 0 14px;

@@ -42,8 +42,8 @@ nav .wrap {
   gap: 8px 20px;
 }
 nav .site-name {
-  font-weight: 0;
-  font-size: 0px;
+  font-weight: 700;
+  font-size: 17px;
   letter-spacing: 0.02em;
   color: var(--ink);
   border-bottom: none;
